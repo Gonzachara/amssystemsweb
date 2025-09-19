@@ -1,0 +1,65 @@
+.services-page {
+  min-height: 100vh;
+  background-color: #111;
+  color: #fff;
+  background-image: url("https://tympanus.net/Development/ScrollBlurTypography/img/noise.png");
+  background-size: 200px;
+}
+
+.wrapper-text {
+  padding: 80px 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+.text-container {
+  padding: 80px 0;
+}
+
+.split-text,
+.split-text-2 {
+  font-size: clamp(24px, 5vw, 48px);
+  max-width: 50% !important;
+  margin: 0 auto;
+  text-align: center !important;
+  white-space: normal !important;
+  overflow-wrap: break-word !important;
+  word-break: keep-all !important;
+  line-height: 1.2;
+}
+
+.cards-section {
+  min-height: 100vh;
+  padding: 4rem 1.5rem 20vh;
+}
+
+.list {
+  display: grid;
+  gap: 3rem;
+}
+
+.item {
+  position: sticky;
+  top: 2rem;
+  padding: 3rem;
+  background-color: #ffffff;
+  color: #111;
+  min-height: 70svh;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.25);
+}
+
+.item h2 {
+  font-size: clamp(28px, 6vw, 56px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+@media (max-width: 768px) {
+  .wrapper-text { height: 80vh; }
+  .item { min-height: 60svh; }
+}
+
+

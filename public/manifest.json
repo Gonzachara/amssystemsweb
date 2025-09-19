@@ -1,0 +1,44 @@
+{
+  "name": "AMS SYSTEMS - Desarrollo Web Profesional en Argentina",
+  "short_name": "AMS SYSTEMS",
+  "description": "Desarrollo web profesional en Argentina. Creamos sitios web que venden, e-commerce rentables y sistemas a medida que escalan tu negocio.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#4075f5",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es-AR",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "technology"],
+  "icons": [
+    {
+      "src": "/logos/ams-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logos/ams-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/ams-screenshot-desktop.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "AMS SYSTEMS - Desarrollo Web Profesional"
+    },
+    {
+      "src": "/images/ams-screenshot-mobile.webp",
+      "sizes": "390x844",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "AMS SYSTEMS - Desarrollo Web Profesional"
+    }
+  ]
+}
